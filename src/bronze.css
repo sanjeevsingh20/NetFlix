@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    overflow-y: hidden;
+    min-height: 300px;
+    aspect-ratio: 3/2;
+}
+.box{
+    background-color: rgb(180, 180, 180);
+    min-width: 110px;
+    scroll-snap-type: x mandatory;
+
+    margin: 5px;
+}
+.container::-webkit-scrollbar{
+    width: 0px;
+}

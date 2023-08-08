@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background: linear-gradient(rgb(0 0 0 / 85%), rgb(32 32 32 / 60%),rgb(12 12 12) ) , url(../public/images/IN-en-20230626-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    justify-content: flex-end;
+}
+.logo{
+    margin: 0.5% 0% 0% 5%;
+    width: 28%;
+}
+.nav-item{
+    width: 80%;
+}
+.eaitdun1{
+    width: 65%;
+}
+.bg-img{
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    object-fit: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+.pos-ab{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.default-bg{
+    background: rgb(0, 0, 0 / 40%);
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+.lang-option{
+    width: 120px;
+    height: 40px;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 3px;
+}
+select{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(255,255,255,0);
+    border: 0px;
+    color: white;
+    padding: 2px;
+    font-size:medium;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.sign-up{
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.cal-4rem{
+    text-align: center;
+}
+.bg-red{
+     background-color: rgb(229,9,20);
+}
+.col-wh{
+    color: white;
+}
+
+.m-10{
+    margin: 1.5% 0.3rem 0rem 0.3rem;
+}
+.wd-100{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.m-4{
+    margin: 1.5% 12% 0% 7%;
+}
+.dis-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 32rem;
+    padding: 7rem 0 3rem;
+}
+.flex{
+    display: flex;
+}
+.jc{
+    justify-content: center;
+    align-items: center;
+}
+.fdr-col{
+    flex-direction: column;
+}
+
+.net-sans{
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bold; */
+}
+.lst-none{
+    list-style: none;
+}
+.menu{
+    width: 33%;
+}
+.ft-size{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.mtb-5{
+    margin: 2% 0% 2% 0%;
+}
+.size1{
+    font-size: 1.5rem;
+}
+.size2{
+    font-size: 1.2rem;
+}
+.fdr-row{
+    flex-direction: row;
+}
+.wid-70{
+    min-width: 25rem;
+    width: 100%;
+    height: 60px;
+}
+.wd100{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.457);
+    border-radius: 10px;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 0px 1rem;
+    font-weight: bold;
+}
+.wd100:focus{
+    outline:2px solid rgb(0, 0, 0); ;
+}
+.wd101{
+    border: 1px solid rgb(6, 209, 6);
+}
+.wd101:focus{
+    outline: 2px solid rgb(6, 209, 6);
+}
+.wid-80{
+    min-width: 30rem;
+    width: 100%;
+}
+.wid-30{
+    min-width: 10rem ;
+    background-color: rgb(229,9,20);
+    border: 2px solid rgb(229,9,20);
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.pos-rel{
+    position: relative;
+}
+.shows-feild{
+    background-color: black;
+}
+.m-5{
+    margin: 5%;
+}
+.info{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+
+}
+.zinde{
+    z-index: 2;
+    width: 100%;
+
+}
+.video-gallery2{
+    position: absolute;
+    top: 8%;
+    left: 18%;
+    z-index: 0;
+    max-width: 64%;
+    max-height: 60%;
+    width: 100%;
+}
+.ft-lar{
+    font-size: x-large;
+}
+.video-gallery{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    z-index: 0;
+}
+form.fdr-row{
+    margin-top: 1.5rem;
+}
+.line{
+    height: 10px;
+    width: 100vw;
+    background-color: rgb(51, 51, 51);
+}
+.device-btm{
+    z-index: 5;
+    position: absolute;
+    left: 22%;
+    border: 2px solid white;
+    top: 68%;
+    border-radius: 10px;
+    padding: 0.5rem;
+    height: 28%;
+    overflow: hidden;
+    background-color: black;
+}
+.col-blu{
+    color: blue;
+}
+.over-hid{
+    height: 100%;
+}
+.w-100{
+    width: 100%;
+    height: 100%;
+}
+.download{
+    width: 25%;
+    overflow: hidden;
+}
+.device-text{
+    align-self: center;
+    width: 40%;
+    margin: 7px;
+}
+.device-img{
+    width: 30%;
+    overflow: hidden;
+}
+.foot-web{
+    /* margin: 0% 7%; */
+    background-color: black;
+}
+.txt-no{
+    text-decoration: underline;
+    color: rgb(175, 175, 175);
+}
+.col-gray{
+    color: rgb(175, 175, 175);
+}
+.pd-20{
+    padding-top: 7%;
+    margin: 1% 7%;
+}
+.mtb-1{
+    margin: 1rem 0rem;
+}
+.grid{
+    display: grid;
+    --grid-layout-gap: 0.75rem;
+    --grid-item--min-width: 18.375rem;
+    --grid-column-count: 4;
+    --gap-count: calc(var(--grid-column-count) - 1);
+    --total-gap-width: calc(var(--gap-count) * var(--grid-layout-gap));
+    --grid-item--max-width: calc( (100% - var(--total-gap-width)) / var(--grid-column-count) );
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr) );
+    grid-gap: var(--grid-layout-gap);
+}
+.lst-none li{
+    margin: 1rem 0rem;
+}
+.faq-section{
+    background-color: black;
+}
+.question-section{
+    padding-top: 1%;
+}
+.faq-question{
+    height: 70px;
+    padding: 12px;
+    justify-content: space-between;
+}
+.answer{
+    min-height: 0px;
+    height: 0px;
+    overflow: hidden;
+    transition: min-height 1s ease;
+}
+
+.bd-grish{
+    background-color: rgb(45,45,45);
+}
+.faq.active .answer{
+    min-height: 150px;
+}
+.faq.active .rot-90{
+    transform: rotate(45deg);
+}
+.faq-question:hover{
+    background-color: rgb(84, 84, 84);
+    cursor: pointer;
+}
+.mrl-1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.rot-90{
+    transition: transform 0.5s ease-in;
+}
+.faq p{
+    font-size: large;
+}
+.head{
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+}
+.mtb-3{
+    margin: 3rem 0rem;
+}
+
+@media screen and (max-width : 840px){
+    .logo{
+        margin: 1.5% 0% 0% 5%;
+        width: 60%;
+    }
+    
+}
+
+@media screen and (max-width : 980px){
+    .logo{
+        width: 50%;
+    }
+    .mw-980{
+        flex-direction: column;
+    }
+    .medias{
+        width: 100%;
+    }
+    .over-hid{
+        height: 110%;
+    }
+    .info{
+        height: 85vh;
+        width: 100%;
+    text-align: center;
+    }
+    .video-gallery{
+        max-width: 73%;
+        max-height: 55%;
+    }
+    video{
+        width: 100%;
+    }
+    .device-btm{
+        left: 15%;
+        padding: 0%;
+    }
+    .mw-980-rev{
+        flex-direction: column-reverse;
+    }
+    .menu{
+        width: 100%;
+    }
+    .faq.active .answer{
+        min-height: 200px;
+    }
+}
+
+@media screen and (max-width : 600px){
+    .logo{
+        width: 100%;
+    }
+    form.fdr-row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .wid-70{
+        min-width: 6rem;
+    }
+    .res-btn{
+        min-width: 10rem;
+        height: 4rem;
+        margin: 1rem;
+    }
+    .data{
+        margin: 0px 1rem;
+    }
+    .sign-up{
+        width: 13rem;
+        font-size: small;
+    }
+    .res-s{
+        font-size: 2rem;
+    }
+    .wid-80{
+        min-width: 7rem;
+    }
+}

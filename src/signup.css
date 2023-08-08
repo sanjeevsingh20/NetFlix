@@ -1,0 +1,89 @@
+.logo{
+    width: 70%;
+}
+.logo{
+    width: 25%;
+    margin: 0.5% 0% 0% 2%;
+}
+.over-100{
+    
+    width: 100vw;
+    /* height: 100vh; */
+}
+.bg-black{
+    background-color: rgba(0, 0, 0, 0.632);
+
+}
+.bdr-2{
+    border: 1px solid black;
+}
+.pad-60{
+    padding: 68px 68px 40px;
+}
+.sign-form{
+    min-height: 660px;
+    border-radius: 10px;
+    max-width: 450px;
+    width: 100%;
+}
+.login-body::before{
+    content: "";
+    display: block;
+    height: 30px;
+}
+.inp{
+    font-size: 16px;
+}
+.pd-10{
+    padding-bottom: 10px;
+}
+.inp-ht{
+    min-height: 50px;
+    width: 100%;
+    padding: 7px;
+    position: relative;
+}
+.inp-h{
+    min-height: 50px;
+    width: 100%;
+    padding: 7px;
+    position: relative;
+    border: 2px solid rgb(229,9,20);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.inp-ht{
+    background-color: rgb(232,240,254);
+    border-radius: 7px;
+}
+.inp-ht:focus {
+    outline: 0px solid rgb(232,240,254);
+    
+}
+.heading{
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.space-btw{
+    justify-content: space-between;
+}
+.txt-small{
+    font-size: small;
+}
+.mt-4{
+    margin-top: 4rem;
+}
+@media screen and (max-width:600px) {
+    .logo{
+        width: 70%;
+    }
+    .sign-form{
+        min-height: 550px;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 100%;
+    }
+    .pad-60{
+        padding: 40px 20px 40px;
+    }
+}
